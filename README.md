@@ -1,5 +1,3 @@
-# Product Requirement Document (PRD) & Spec Doc — v2
-
 ## Product Name: TheCGPAGuy
 ### Codename / Architecture Reference: Syllabus-Anchored Local AI Learning Platform
 ### Target Audience: CS Department pattern, MIT MAHE Bengaluru — Phase 1 pilot: single student (personal use)
