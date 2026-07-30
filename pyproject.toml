@@ -1,0 +1,26 @@
+[project]
+name = "thecgpaguy"
+version = "0.1.0"
+description = "Syllabus-Anchored Local AI Learning Platform"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "jinja2>=3.1.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "httpx>=0.28.0",
+    "pymupdf>=1.25.0",
+    "aiofiles>=24.0.0",
+    "python-multipart>=0.0.12",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.7.0",
+]
